@@ -1,0 +1,8 @@
+:root {
+    --main-rojo: #ed1c24;
+    --main-verde: #006837;
+    --main-light-pink: #fff4f4;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
