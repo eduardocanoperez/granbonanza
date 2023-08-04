@@ -14,17 +14,23 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 header {
-
+    height: 5rem;
 }
 .header-container {
-
+    display: flex;
+    height: 100%;
 }
 .container-logo {
-
+    height: auto;
+    width: auto;
 }
 .header_logo {
-
+    width: 8rem;
 }
 .container-menu {
-
+    height: auto;
+    width: auto;
+}
+.hamburger-menu img {
+    height: 5rem;
 }
