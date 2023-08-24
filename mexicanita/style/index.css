@@ -1,10 +1,11 @@
 :root {
-    --main-rojo: #ed1c24;
-    --main-verde: #006837;
-    --main-light-pink: #fff4f4;
+    --main-rojo: #E90929;
+    --main-verde: #00B24E;
+    --main-light: #FEFEFE;
 }
 html {
     font-size: 62.5%;
+    background-color: var(--main-light);
 }
 body {
     margin: 0;
@@ -14,23 +15,36 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 header {
-    height: 5rem;
+    width: 100%;
+    height: 8rem;
 }
 .header-container {
     display: flex;
+    padding: 0;
+    margin-block: 0;
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
+    list-style: none;
 }
 .container-logo {
     height: auto;
     width: auto;
 }
 .header_logo {
-    width: 8rem;
+    background-image: url(../logos/img/lamexicanaabarroteschica.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 .container-menu {
     height: auto;
     width: auto;
 }
 .hamburger-menu img {
-    height: 5rem;
+    height: 6rem;
+    background-image: url(../logos/hamburguermenu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
