@@ -30,6 +30,7 @@ header {
 .container-logo {
     height: auto;
     width: auto;
+    margin-left: 1rem;
 }
 .header_logo {
     background-image: url(../logos/img/lamexicanaabarroteschica.png);
@@ -40,6 +41,7 @@ header {
 .container-menu {
     height: auto;
     width: auto;
+    margin-right: 1rem;
 }
 .hamburger-menu img {
     height: 6rem;
@@ -47,4 +49,14 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+.main-description {
+    display: grid;
+    
+}
+.description-title {
+
+}
+.parraf {
+
 }
