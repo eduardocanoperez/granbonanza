@@ -36,15 +36,21 @@ html {
   height: 100px;
   width: 250px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-content: center;
   flex-wrap: wrap;
   margin-block: 0;
   padding-inline: 0;
+  margin-right: 2rem;
+  align-items: center;
+  gap: .8rem;
 }
-.nav-menu__list li a {
-  text-decoration: none;
-  font-size: small;
-  color: black;
-  font-weight: 500;
+.buscar-logo__productos {
+  height: 3rem;
+}
+.usuario-logo__iniciodesesion {
+  height: 3rem;
+}
+.carrito-logo__micarrito {
+  height: 2.5rem;
 }
