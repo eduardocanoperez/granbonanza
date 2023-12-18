@@ -54,3 +54,26 @@ html {
 .carrito-logo__micarrito {
   height: 2.5rem;
 }
+/*Header*/
+.main-section {
+  padding: 1.5rem;
+}
+.banner {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.slider {
+  overflow: hidden;
+}
+.slider--inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  transition: all 0.5s ease-in;
+  align-items: center;
+}
+.slider--inner img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
